@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <ul class="list-unstyled">
+        <% @articles.each do |article| %>
+          <h2><li><%= article.title %></li></h2>
+          <p><li><%= article.content %></li></p>
+        <% end %>
+      </ol>
+    </div>
+  </div>
+</div>
